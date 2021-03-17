@@ -1,0 +1,12 @@
+{
+    "manifest_version": 1,
+    "name": "YouTube Notes",
+    "description": "Keep timestamped notes from Youtube Videos",
+    "icons": {"128": "icon_128.png"}
+    "version": "1.0.0",
+    "browser_action": {
+        "default_icon": "icon_png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
